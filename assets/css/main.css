@@ -168,6 +168,13 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 
+	.aboutp {
+		padding-right: 15%;
+		padding-left: 15%;
+	}
+
+
+
 /* Container */
 
 	.container {
