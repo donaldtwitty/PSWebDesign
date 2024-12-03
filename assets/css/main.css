@@ -1797,6 +1797,34 @@ ul.style3 li:first-child {
     margin-top: 0;
 }
 
+
+ul.style4 {
+    list-style: inside url("images/PSWDLogoFavicon.png"); /* Remove default bullet points */
+    padding-left: 0; /* Remove default padding */
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+ul.style4 li {
+    position: relative; /* Position the custom bullet relative to the list item */
+    padding-left: 30px; /* Add space for the custom bullet */
+    margin-bottom: 10px; /* Add spacing between items */
+}
+
+/*ul.style4 li::before {*/
+/*    content: url("images/PSWDLogoFavicon.png"); !* No text, just the image *!*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 50%;*/
+/*    transform: translateY(-50%); !* Center the image vertically *!*/
+/*    width: 40px; !* Set the width of the bullet image *!*/
+/*    height: 40px; !* Set the height of the bullet image *!*/
+/*    background-image: url('images/PSWDLogoFavicon.png'); !* Path to your image *!*/
+/*    background-size: cover; !* Make sure the image fits properly *!*/
+/*    background-repeat: no-repeat; !* Prevent image repetition *!*/
+/*}*/
+
+
 ol {
     list-style: decimal;
     padding-left: 1.25em;
